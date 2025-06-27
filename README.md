@@ -50,7 +50,9 @@ Each row represents a single transaction along with customer demographics, merch
 | `customer_state_state_full` | Full name of the customer's state |
 | `customer_age`              | Age of the customer (derived from DOB) |
 
-#🔧 Project Workflow
+-------------------------------------------------------------------------------------------------------------------------------------
+
+# 🔧 Project Workflow
 
 It follows an end-to-end analytics workflow — from raw data to business-ready insights.
 
@@ -59,6 +61,9 @@ It follows an end-to-end analytics workflow — from raw data to business-ready 
 - This made the file accessible for cloud-based processing and dashboard development
 - 
 ![Screenshot 2025-06-27 181725](https://github.com/user-attachments/assets/8fedcf54-8981-4161-88cb-8545fc84326a)
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
 
 ### 🧹2 Jupyter Notebook: Cleaning with Azure Integration
 
@@ -74,11 +79,15 @@ The complete data cleaning process was done using **Python in Jupyter Notebook**
 📸 Azure + Python integration Preview:  
 ![Screenshot 2025-06-27 184102](https://github.com/user-attachments/assets/c436442d-ea1e-47dd-b21a-2f7ec69d6e76)
 
+-------------------------------------------------------------------------------------------------------------------------------------
+
 ### 3️ Cleaned File Re-uploaded to Azure
 - After cleaning, the final dataset was saved as a new CSV
 - This cleaned file was re-uploaded to the **same Azure container** to keep the pipeline organized
 
   ![Screenshot 2025-06-27 184332](https://github.com/user-attachments/assets/59b19ec1-4e9d-46ec-9539-194c33ac25a4)
+  
+-------------------------------------------------------------------------------------------------------------------------------------
 
 ### 4️⃣ Power BI Dashboard Development
 - Connected **Power BI** to Azure Blob Storage using built-in connectors
@@ -95,6 +104,8 @@ The complete data cleaning process was done using **Python in Jupyter Notebook**
 - **Male Users Have Higher Fraud Rates**: More fraudulent transactions are linked to male users.
 - **Certain Merchant Categories Are High-Risk**: Industries like *Material Engineering* have higher fraud occurrences.
 - **Credit Cards Are More Vulnerable**: Fraud cases are more common in online credit card transactions.
+- 
+-------------------------------------------------------------------------------------------------------------------------------------
 
 ## Recommendations
 ### 1- Address Seasonal Fraud Spikes
@@ -112,3 +123,30 @@ The complete data cleaning process was done using **Python in Jupyter Notebook**
 ### 4- Enhance Payment Security
 - Promote two-factor authentication for online credit card transactions.
 - Educate users on secure payment methods to prevent fraud.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## ✅ Conclusion
+
+This end-to-end project demonstrates how data analysts can combine **cloud technologies, Python-based data cleaning**, and **interactive dashboards in Power BI** to tackle real-world problems like fraud detection.
+
+By analyzing transaction data and deriving actionable insights, this dashboard helps stakeholders make informed decisions and implement stronger fraud prevention measures.
+
+---
+
+## 🛠 Tools & Technologies Used
+
+- **Azure Blob Storage** – Cloud storage and integration
+- **Python (Pandas, Azure SDK)** – Data cleaning & preprocessing
+- **Jupyter Notebook** – Interactive code development
+- **Power BI** – Dashboard design & visualization
+- **Markdown & GitHub** – Documentation & portfolio showcase
+
+---
+
+## 🔖 Tags / Hashtags
+
+`#DataAnalytics` `#FraudDetection` `#PowerBI` `#Azure` `#Python` `#PortfolioProject` `#DataScience`
+
+---
