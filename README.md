@@ -10,23 +10,23 @@ The goal of this project is to simulate how actual data analysts in the financia
 
 In this end-to-end project, we:
 
-✅ **Ingest real-world transaction data** and securely store it in **Azure Blob Storage**
+**1** **Ingest real-world transaction data** and securely store it in **Azure Blob Storage**
 
-✅ Use **Python** for **data exploration** and **data cleaning**, including handling nulls, fixing data types, and preparing the data for analysis
+**2**. Use **Python** for **data exploration** and **data cleaning**, including handling nulls, fixing data types, and preparing the data for analysis
 
-✅ Create a cleaned dataset and **upload it back to Azure** to establish a **cloud-based data pipeline**
+**3.** Create a cleaned dataset and **upload it back to Azure** to establish a **cloud-based data pipeline**
 
-✅ Use **Power BI** to develop an interactive dashboard that enables users to filter by fraud status, merchant category, and more
+**4**. Use **Power BI** to develop an interactive dashboard that enables users to filter by fraud status, merchant category, and more
 
-✅ Derive **business-driven fraud insights**, including high-risk months, customer demographics, merchant risk, and payment vulnerabilities
+**5**. Derive **business-driven fraud insights**, including high-risk months, customer demographics, merchant risk, and payment vulnerabilities
 
 
-## 📦 Dataset Overview
+##  Dataset Overview
 
 The dataset contains **transaction-level credit card data** used for fraud analysis.  
 Each row represents a single transaction along with customer demographics, merchant details, transaction timestamp, and fraud label.
 
-### 🔑 Key Columns:
+###  Key Columns:
 
 | Column Name                  | Description |
 |-----------------------------|-------------|
@@ -52,7 +52,7 @@ Each row represents a single transaction along with customer demographics, merch
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-# 🔧 Project Workflow
+#  Project Workflow
 
 It follows an end-to-end analytics workflow — from raw data to business-ready insights.
 
@@ -65,7 +65,7 @@ It follows an end-to-end analytics workflow — from raw data to business-ready 
 -------------------------------------------------------------------------------------------------------------------------------------
 
 
-### 🧹2 Jupyter Notebook: Cleaning with Azure Integration
+### 2 Jupyter Notebook: Cleaning with Azure Integration
 
 The complete data cleaning process was done using **Python in Jupyter Notebook**, which includes:
 
@@ -73,10 +73,10 @@ The complete data cleaning process was done using **Python in Jupyter Notebook**
 - 🧼 Handling null values, fixing formats, and deriving new columns
 - 📤 Uploading the cleaned dataset back to Azure for Power BI analysis
 
-📄 **Notebook File**: [`credit_card_fraud_cleaning.ipynb`](./credit_card_fraud_cleaning.ipynb)
+ **Notebook File**: [`credit_card_fraud_cleaning.ipynb`](./credit_card_fraud_cleaning.ipynb)
 [Uploading Credit_card_fraud.ipynb…]()
 
-📸 Azure + Python integration Preview:  
+ Azure + Python integration Preview:  
 ![Screenshot 2025-06-27 184102](https://github.com/user-attachments/assets/c436442d-ea1e-47dd-b21a-2f7ec69d6e76)
 
 -------------------------------------------------------------------------------------------------------------------------------------
@@ -89,7 +89,7 @@ The complete data cleaning process was done using **Python in Jupyter Notebook**
   
 -------------------------------------------------------------------------------------------------------------------------------------
 
-### 4️⃣ Power BI Dashboard Development
+### 4️ Power BI Dashboard Development
 - Connected **Power BI** to Azure Blob Storage using built-in connectors
 - ![Screenshot 2025-06-27 161541](https://github.com/user-attachments/assets/110fe2a9-543b-4243-b483-0ab279ba581e)
 ![Screenshot 2025-06-27 161727](https://github.com/user-attachments/assets/b11c75cd-8faa-45d9-bb9b-d541d3687be8)
@@ -127,7 +127,7 @@ The complete data cleaning process was done using **Python in Jupyter Notebook**
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-## ✅ Conclusion
+##  Conclusion
 
 This end-to-end project demonstrates how data analysts can combine **cloud technologies, Python-based data cleaning**, and **interactive dashboards in Power BI** to tackle real-world problems like fraud detection.
 
@@ -145,7 +145,7 @@ By analyzing transaction data and deriving actionable insights, this dashboard h
 
 ---
 
-## 🔖 Tags / Hashtags
+##  Tags / Hashtags
 
 `#DataAnalytics` `#FraudDetection` `#PowerBI` `#Azure` `#Python` `#PortfolioProject` `#DataScience`
 
